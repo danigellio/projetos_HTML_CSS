@@ -1,0 +1,135 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Playpen+Sans:wght@200&family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+:root{
+     font-size: 62.5%;
+     --italiana: 'Italiana', sans-serif;
+     --normal: 'Open Sans', sans-serif;
+ }
+ html,body{
+     margin: 0;
+     padding: 0;
+     
+ }
+ body{
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 1.6rem;
+     
+ }
+ header{
+     background-color: #162028;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+ .header__name{
+     font-family: var(--italiana);
+     color: white;
+     margin: 0 0 0 20rem;
+     font-size: 4.5rem;
+ }
+ .header__ul{
+     display: flex;
+     gap: 2rem;
+     margin: .5rem 2rem .5rem  0;
+ }
+ .header__ul li {
+     list-style-type: none;
+     font-family: var(--normal);
+     font-size: 2rem;
+     letter-spacing: .2rem;
+     text-transform: uppercase; 
+     padding: 1rem;
+     
+ }
+ .header__ul li a{
+     color:  #425564;
+     text-decoration: none;
+ }
+ .imagem-inicial {
+     background-image: url(../inicio/imagens/topo.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     width: 100%;
+     height: 60rem;
+     background-position: left bottom;    
+ }
+ .section_part1{
+     
+     width: 80%;
+     margin: auto;
+ }
+.article_first{
+    
+     margin-top: 10rem;
+}
+.article_first-title{
+     font-family: var(--italiana);
+     text-align: center;
+     color: #555;
+     font-size: 4rem;
+}
+.article_first p{
+     text-align:center ;
+     line-height: 3rem;
+     font-size: 1.8rem;
+     color: #555;
+     
+}
+
+.amostras__roupas{
+     list-style-type: none;
+     display: flex;
+     gap: 1rem;
+     justify-content: space-evenly;
+     margin-top: 10rem;
+     margin-bottom: 10rem;
+}
+.amostras__roupas h2{
+    font-family: var(--italiana);
+    text-align: center;
+    color: #555;
+    margin-bottom: 1rem;
+}
+.amostras__roupas p{
+    font-family: var(--normal);
+    text-align: center;
+    color: #555;
+    
+    margin-top: 0;
+}
+.section_part2{
+    background-color:#003d52 ;
+    background-image: url(../inicio/imagens/bg_detalhe.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    width: 100%;
+    margin: auto;
+    padding: 7rem;
+    color:white;
+   
+
+}
+.section_part2 h2{
+    font-family: var(--italiana);
+    font-size: 4rem;
+    letter-spacing: .2rem;
+    
+
+}
+.section_part2 p {
+    font-family: var(--normal);
+    line-height: 3rem;
+    width: 50%;
+    padding: 5rem 0;
+    font-size: 1.8rem;
+}
+.rodape{
+    background-color: #0b171f;
+    color: #6f8597;
+    padding: 1.5rem;
+    text-align: center;
+    
+}
