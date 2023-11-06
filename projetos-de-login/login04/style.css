@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+body{
+     margin: 0;
+     font-family: 'Noto Sans', sans-serif;
+
+}
+.main-login{
+     width: 100vw;
+     height: 100vh;
+     background: #201b2c;
+     display: flex; /*para os objetos ficarem lado a lado*/
+     justify-content: center; /*para ficar justificado no centro*/
+     align-items: center; 
+}
+.left-login{
+     width: 50vw;
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;/*para a 1ª coluna com os dois itens ficarem um abaixo do outro tipo coluna*/
+
+
+}
+.left-login h1{
+     color: #77ffc0;
+}
+.right-login{
+     width: 50vw;
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     
+    
+
+}
+.card-login{
+     width: 60%; /* qual a diferença entra vw e %? a vw pega toda a tela, ja o % pega 60% da div em que esta o carf login*/
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     padding: 20px 30px;
+     background: #2f2B41;
+     border-radius: 20px;
+     box-shadow: 0px 10px 40px #00000056;
+}
+.card-login h1{
+     color: #00ff88;
+     font-weight: 800; /*para deixar mais grossa a letra, mais pesada*/
+     margin: 0;
+}
+.textfield{
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     /*justify-content refere-se ao eixo x e o align-itens refere-se ao eixo y e quando usa o flex-direction isso se inverte*/
+     align-items: flex-start;
+     justify-content: center;
+     margin: 10px 0;
+}
+
+.textfield > input{
+     width: 100%;
+     border: none;
+     border-radius: 10px;
+     padding: 15px;
+     background: #514869;
+     color: #f0ffffde;
+     font-size: 1em;
+     outline: none;
+     box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.322);
+     box-sizing: border-box;
+
+}
+.textfield label{
+     color: #f0ffffde;
+     margin-bottom: 8px;
+}
+.textfield >input::placeholder{
+     color: #f0ffff94;
+}
+
+.btn-login{
+     width: 100%;
+     padding: 16px 0;
+     margin: 25px;
+     border: none;
+     border-radius: 8px;
+     outline: none;
+     text-transform: uppercase;
+     font-weight: 800;
+     letter-spacing: 3px;
+     color: #2b134b;
+     background: #00ff88;
+     cursor: pointer;
+     box-shadow: 0px 10px 40px -12px #00ff8052; /*sped no quarto valor*/
+}

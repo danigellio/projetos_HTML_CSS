@@ -1,0 +1,81 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+*{
+	font-family: 'Open Sans', sans-serif;
+	padding: 0px;
+	margin: 0px;
+	box-sizing:border-box /*especificando como o tamanho total do elemento é calculado, levando em consideração as bordas e o preenchimento (padding).*/
+}
+html{
+	height: 100vh;
+	width: 100vw;
+	overflow: hidden;
+}
+body{
+	height: 100vh;
+	width: 100vw;
+	background: #092756;
+	background-image: linear-gradient(to bottom,  rgba(57,173,219,.25) 0%,rgba(42,60,87,.4) 100%), linear-gradient(135deg,  #670d10 0%,#092756 100%);
+	
+}
+.login h1 { 
+	color: #fff;
+	text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.418);
+	letter-spacing:1px; 
+	text-align:center; 
+	margin-bottom: 8px;
+}
+.login { 
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width:300px;
+	height:300px;
+	transform: translate(-50%,-50%);
+}
+input{
+	width: 100%;
+	margin-bottom: 10px;
+	padding: 10px;
+	font-size: 1em;
+	background:rgba(0, 0, 0, 0.3);
+	border-radius: 4px;
+	border: none; /*retira cor da borda*/
+	border: 1px solid rgba(0, 0, 0, 0.301);
+	outline: none; /*A "outline" é uma borda visual que geralmente é exibida ao redor de um elemento quando ele está em foco, como quando um usuário clica em um link ou um campo de formulário.*/
+	color: #fff;
+	text-shadow:  1px 1px 10px rgba(0, 0, 0, 0.336);
+	box-shadow: inset 0 -5px 45px rgba(100, 100, 101, 0.2), 0 1px 1px rgba(255, 255, 255, 0.2); /*inset:borda interna*/
+	transition: box-shadow .5s ease; /*A função "ease" é uma função de temporização padrão que começa devagar, acelera no meio da transição e depois diminui novamente no final, criando uma animação suave e natural.*/
+}
+input:focus { 
+	box-shadow: inset 0 -5px 45px rgba(100,100,100,0.4), 0 1px 1px rgba(255,255,255,0.2); /*: Isso se refere a qualquer elemento <input> que esteja em foco, ou seja, aquele que o usuário está interagindo.*/
+}
+#btn { 
+	display: block; 
+	padding: 9px 14px; 
+	width: 100%;
+	font-size: 15px; 
+	line-height: normal; 
+	color: #ffffff; 
+	text-align: center;
+	background-image: linear-gradient( to top, #6eb6de, #4a77d4);
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.267);
+	border: 1px solid #3762bc; 
+	border-radius: 4px; 
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05); 
+	cursor: pointer;
+}
+#btn:hover { 
+	color: #e7e7e7;
+	text-decoration: none;
+	background-image: linear-gradient( to top, #568fad, #365799); 
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	background-position: 0 -0.5px;
+	transition: background-position 0.1s linear;
+	 }
+
+	
+
+
+
