@@ -1,0 +1,96 @@
+body{
+     margin: 0;
+     font-family: Arial, Helvetica, sans-serif;
+     background-color: #ccc;
+}
+.hero{
+     background-image: url(../imagens/bg-3.jpg);
+     height: 500px;
+     background-size: cover;
+     background-position: right center;
+     padding: 1px; /*para colocar na base*/
+}
+.hero-content{
+     
+
+     margin: 115px auto 0 ;
+     width: 80%;
+     text-align: center;
+     color: white;
+}
+.hero-content h1{
+     margin: 0;
+     font-size: 50px;
+     text-transform: uppercase;
+     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.63);
+     margin-bottom: 0;
+}
+.hero-content p {
+     background-color: rgba(0, 0, 0, 0.63);
+     font-size: 18px;
+     display: inline-block;
+     padding: 16px;
+     border-bottom: 1px solid white;
+}
+.menu ul{
+     margin: 20px 20px 0 0 ;
+     text-align: right;
+}
+.menu li{
+     display: inline-block;
+     list-style: inside;
+     margin-left: 15px; 
+}
+.menu a {
+
+     background-color: rgba(0, 0, 0, .3);
+     display: block;
+     padding: 16px;
+     color: white;
+     font-size: 14px;
+     letter-spacing: 2px; /*afastamento das letras*/
+     text-decoration: none;
+     border: 1px solid;
+     text-transform: uppercase;
+}
+.menu a:hover{
+     background-color: rgba(0, 0, 0, .6);
+}
+main{
+     width: 90%;
+     margin: auto;
+     max-width: 860px;/*largura maxima */
+}
+section{
+     padding-top:32px ;
+}
+article{
+     background-color: white;
+     padding: 16px;
+     margin-bottom: 32px;
+     /*margin-top: 32px; pode ter o bottom e o top, eles nao somam, um complementa o outro e mantem os 32px*/
+}
+article h2{
+     border-bottom: 1px solid #ccc;
+     background-color: #eee;
+     padding: 10px;
+     margin-top: 0;
+}
+.btn{ /* a .btn= seleciona os elementos que dentro do a tem btn ou seja btn é descendente do a, ja o a.btn ele seleciona o elemento 'a' com a classe btn*/
+
+     background-color: #cdc7c3;
+     display: block;
+     padding: 12px 16px;
+     border-radius: 5px;
+     margin-left: auto; /*so funciona em display block*/
+     width: fit-content; /*ele pega a largura do meu conteudo e vai ajustarm, caso em vez de 'saiba mais' o cliente queira clique aqui e saiba mais', ele aumenta e se adapta*/
+     
+}
+.rodape{
+     color: white;
+     background-color: #6b6c68;
+     text-align: center;
+     padding: 20px;
+     text-shadow: 1px 1px 1px black;
+     letter-spacing: 2px;
+}
